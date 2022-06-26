@@ -1,7 +1,8 @@
 * {
   border: none;
-  font-family: Fira Sans;
+  font-family: Comic Code Ligatures Medium;
   min-height: 0;
+  color: white;
 }
 
 window#waybar {

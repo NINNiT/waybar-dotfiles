@@ -34,30 +34,30 @@
     },
 
     "cpu": {
-            "format": "  {usage}%",
+            "format": " {usage}%",
             "tooltip": false
      },
 
     "memory": {
-        "format": "  {}% "
+        "format": " {}% "
     },
 
     "custom/gputemp": {
         "exec": "$HOME/.config/waybar/scripts/temp.sh gpu",
         "return-type": "",
         "interval": 5,
-        "format": " GPU  {}°C"
+        "format": " GPU {}°C"
     },
     "custom/cputemp": {
         "exec": "$HOME/.config/waybar/scripts/temp.sh cpu",
         "return-type": "",
         "interval": 5,
-        "format": " CPU  {}°C"
+        "format": " CPU {}°C"
     },
 
    "network": {
         "interface": "wlan0",
-        "format-wifi": "  {essid}",
+        "format-wifi": " {essid}",
         "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
@@ -70,8 +70,8 @@
 
     "pulseaudio": {
        "scroll-step": 1,
-       "format": "{icon}  {volume}%",
-       "format-bluetooth": "{icon}  {volume}%",
+       "format": "{icon} {volume}%",
+       "format-bluetooth": "{icon} {volume}%",
        "format-muted": "",
        "format-icons": {
            "headphones": "",
@@ -120,7 +120,7 @@
     "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": false,
-        "format": "{name}  {icon}",
+        "format": "{name} {icon}",
         "format-icons": {
             "urgent": "",
             "focused": "",
